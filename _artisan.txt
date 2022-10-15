@@ -66,3 +66,8 @@ Rotaları hızlı yükleme için önbellekler.
 
 php artisan view:clear
 Derlenmiş önyüz dosyalarını temizler. Bazen değişiklikler sayfada gözükmeyince gereklidir.
+
+
+eğer storelink hata verirse sırayla bunu uygula.
+rm public/storage
+php artisan storage:link
